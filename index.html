@@ -6,36 +6,82 @@
     <title>blog-Fractalbonita</title>
 </head>
 <body>
+    <!--Header used acroos all pages of the website-->
     <header>
         <img src="/images/neuefische-gmbh-logo.svg" alt="The neuefische logo displaying a fish and the name in lowercase">
         <h1>neuefische Blog</h1>
+        <!--Naviagtion menu-->
         <nav>
-            <a href="#articles">Articles</a>
-            <a href="#mprint">Imprint</a>
+            <ul>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#imprint">Imprint</a></li>
+            </ul>
+            <!--Search bar-->
+            <form>
+               <input type="search" name="searchbar" id="searchbar" placeholder="Search blog">
+            </form>
         </nav>
     </header>
+    <!--Main content of the current page-->
     <main id="articles">
+        <!--Overview of articles and stories-->
         <article>
-            <h2>
-                HTML 
-            </h2>
-            <h3>
-                The art of sectioning
-            </h3>
+            <h2>HTML</h2>
+            <h3>The art of sectioning</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur vero facilis voluptate ad ab quia amet iste quam quis nemo.
+            </p>
+            <p>
+                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt nisi amet atque? Totam quae dicta rem impedit hic doloribus delectus.
+            </p>
+            <p>
+                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius quasi laboriosam molestiae harum quas ipsum, distinctio quo accusantium minus dolores!
+            </p>
+            <h3>The art of coding</h3>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias earum repellendus laborum excepturi nesciunt, dolorum distinctio quis itaque delectus commodi?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nemo natus quam esse voluptates cum harum quas corrupti ex et! Maxime voluptas, explicabo provident assumenda non recusandae corrupti harum ut nesciunt nostrum aspernatur deleniti dicta, totam suscipit cupiditate voluptatum officia!
+            </p>
             <section>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur vero facilis voluptate ad ab quia amet iste quam quis nemo.</p>
-
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt nisi amet atque? Totam quae dicta rem impedit hic doloribus delectus.</p>
-
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius quasi laboriosam molestiae harum quas ipsum, distinctio quo accusantium minus dolores!</p>
-
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias earum repellendus laborum excepturi nesciunt, dolorum distinctio quis itaque delectus commodi?</p>
+                <h2>Please leave a comment</h2>
+                <form>
+                    <label for="name">Name:<abbr title="required" aria-label="required"> * </abbr>
+                        <!-- aria-label attribute eases accessiblility-->
+                        <input type="text" required>
+                    </label>
+                    <label for="comment"> Your comment
+                        <textarea  
+                            cols="30" 
+                            rows="10" 
+                            spellcheck="true" 
+                            placeholder="Write something here">
+                            <!--<id="comment"> is not required inside textares, since it is nested inside the <label> element-->
+                        </textarea>
+                    </label>
+                    <button name="send">Send</button>
+                </form>
+            </section>
+            <section>
+                <cite>Dracula</cite>
+                <time datetime="2020-05-13">2020 May 13</time>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, animi!
+                </p>
+            </section>
+            <section>
+                <cite>Ork</cite>
+                <time datetime="2020-05-13">2020 May 13</time>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, amet.
+                </p>
             </section>
             <aside>
                 <h3>Author</h3>
-                <h4>Bella</h4>
+                <p>Bella</p>
                 <img src="/images/author.jpeg" alt="The author looking into a beautiful foggy landscape with a forest in the background">
-                <h3>Furhter articles</h3>
+                <h3>Read more...</h3>
                 <ul>
                     <li>
                         <a href="https://" target="_blank" rel="noopener noreferrer">Article2</a>
@@ -51,7 +97,7 @@
         </article>
     </main>
     <footer id="imprint">
-        <p>&copy; neuefische GmbH</p>
+        <p>Copyright &copy; 2020 neuefische GmbH</p>
     </footer>
 </body>
 </html>

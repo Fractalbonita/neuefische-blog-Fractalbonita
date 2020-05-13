@@ -9,8 +9,12 @@
     <header>
         <img src="/images/img/neuefische-gmbh-logo.svg" alt="The neuefische logo displaying a fish and the name in lowercase">
         <h1>neuefische Blog</h1>
+        <nav>
+            <a href="#articles">Articles</a>
+            <a href="#mprint">Imprint</a>
+        </nav>
     </header>
-    <main>
+    <main id="articles">
         <article>
             <h2>
                 HTML 
@@ -19,16 +23,6 @@
                 The art of sectioning
             </h3>
             <section>
-                <aside>
-                    <h3>Bella</h3>
-                    <img src="/images/img/author.jpeg" alt="The author looking into a beautiful foggy landscape with a forest in the background">
-                    <h3>Furhter articles</h3>
-                    <ul>
-                        <li>Link to article 1</li>
-                        <li>Link to article 2</li>
-                        <li>Link to article 3</li>
-                    </ul>
-                </aside>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur vero facilis voluptate ad ab quia amet iste quam quis nemo.</p>
 
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt nisi amet atque? Totam quae dicta rem impedit hic doloribus delectus.</p>
@@ -37,9 +31,26 @@
 
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias earum repellendus laborum excepturi nesciunt, dolorum distinctio quis itaque delectus commodi?</p>
             </section>
+            <aside>
+                <h3>Author</h3>
+                <h4>Bella</h4>
+                <img src="/images/author.jpeg" alt="The author looking into a beautiful foggy landscape with a forest in the background">
+                <h3>Furhter articles</h3>
+                <ul>
+                    <li>
+                        <a href="https://" target="_blank" rel="noopener noreferrer">Article2</a>
+                    </li>
+                    <li>
+                        <a href="https://" target="_blank" rel="noopener noreferrer">Article2</a>
+                    </li>
+                    <li>
+                        <a href="https://" target="_blank" rel="noopener noreferrer">Article3</a>
+                    </li>
+                </ul>
+            </aside>
         </article>
     </main>
-    <footer>
+    <footer id="imprint">
         <p>&copy; neuefische GmbH</p>
     </footer>
 </body>

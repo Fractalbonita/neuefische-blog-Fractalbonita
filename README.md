@@ -1,4 +1,4 @@
-# neuefische-blog
+# neuefische Blog
 
 ## Description
 

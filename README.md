@@ -19,7 +19,9 @@ Responsive static frontend blog page
 
 **Tablet**
 
-<img src="./screenshots/Screenshot-tablet-1.png" height="400"> <img src="./screenshots/Screenshot-tablet-2.png" height="400"> <img src="./screenshots/Screenshot-tablet-3.png" height="400">
+<img src="./screenshots/Screenshot-tablet-1.png" height="400"> 
+<img src="./screenshots/Screenshot-tablet-2.png" height="400"> 
+<img src="./screenshots/Screenshot-tablet-3.png" height="400">
 
 **Mobile**
 
